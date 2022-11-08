@@ -6,7 +6,7 @@ while True:
     month = str(datetime.now().month)
     year = str(datetime.now().year)
     date = day + '.' + month + '.' + year
-    name = (input("Введит ФИО --> "))
+    name = (input("Enter name --> "))
     image = Image.open(r"C:\\add_text_to_photo_py\\1.jpg")
     font = ImageFont.truetype(r"C:\\add_text_to_photo_py\\ofont.ru_Anastasia.ttf",150)
     font_number = ImageFont.truetype(r'C:\\add_text_to_photo_py\\kztimesnewroman.ttf', 100)
